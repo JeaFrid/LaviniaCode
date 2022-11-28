@@ -9,7 +9,7 @@ Lavinia kodları, kısa ve anlamlı olacak şekilde düzenlenmiştir. Bir cümle
 Lavinia kodlama panelinde prosedür bellidir;
 
 
-```python
+```
 ModülAdı Method: (değer parametresi) [referans parametre]
 ```
 `ModülAdı` Kullanılan modül. *(örn: lavinia)*
