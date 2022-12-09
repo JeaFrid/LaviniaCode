@@ -151,6 +151,10 @@ Kodlama dökümanları, size tüm kod parçacıklarını sağlar. Unuttuğunuz k
 `lavinia test: [sensör]`
 
 
+----------
+
+
+
 ### **dosya**
 'Dosya' kod parçacığı, cihazın yerel dosya araçlarında kullanılır. Uygulamayı yüklemek, dosya veya klasör açmak gibi.
 
@@ -184,6 +188,9 @@ Kodlama dökümanları, size tüm kod parçacıklarını sağlar. Unuttuğunuz k
 
 `dosya yeni: [/Download/yeni.txt] (Merhaba günlük..)`
 
+----------
+
+
 
 
 ### **paket**
@@ -209,6 +216,9 @@ Kodlama dökümanları, size tüm kod parçacıklarını sağlar. Unuttuğunuz k
 `paket kaldır: (lavinia.bybug.net)`
 
 
+----------
+
+
 
 ### **telegram**
 'telegram' kod parçacığı, cihazın global Telegram araçlarında kullanılır. Mesaj göndermek gibi.
@@ -222,6 +232,9 @@ Kodlama dökümanları, size tüm kod parçacıklarını sağlar. Unuttuğunuz k
 
 `telegram bot (gönder) [%botTOKEN%] {@chatID}: Merhaba!`
 
+----------
+
+
 
 ### **bybug**
 'bybug' kod parçacığı, ByBug araçlarını kullanmanıza izin verir.
@@ -233,6 +246,10 @@ Kodlama dökümanları, size tüm kod parçacıklarını sağlar. Unuttuğunuz k
 Örnek;
 
 `bybug ads (kaynak)`
+
+
+----------
+
 
 ### **özel**
 Özel araçlar.
