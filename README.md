@@ -60,9 +60,19 @@ operatörler;
 
 Tüm veriler doğru bir şekilde makineye teslim edildiğinde işlemler gerçekleşir.
 
-----------
 
 
+
+### **Kütüphaneler Nasıl Çalışır?**
+Kütüphaneler, kütüphane kodundan sonra süslü parantezler arasına yazılan bir lavinia methodudur. Evet, bir method'dur. Yani tek başına çalışamaz. lavinia modülü içinden çağırılabilir.
+
+Örnek;
+
+```
+lavinia kütüphane {jeafriday internet (al) [https://]}
+```
+
+**Bu method, normalde işlenmeyen komutları işleyebilir bir hale getirmek ve kolay bir yazıl klavuzuna geçebilmek adına yapıldı. Yani her komut için bir modül kullanmak yerine, artık kütüphaneler ile derli toplu bir yazım mekaniği kullanılıyor.**
 
 ### **Uygulamalar Menüsü Nasıl Çalışır?**
 
@@ -150,8 +160,6 @@ Kodlama dökümanları, size tüm kod parçacıklarını sağlar. Unuttuğunuz k
 
 `lavinia test: [sensör]`
 
-
-----------
 
 
 
@@ -261,6 +269,35 @@ Kodlama dökümanları, size tüm kod parçacıklarını sağlar. Unuttuğunuz k
 Örnek;
 
 `özel github (oluştur) [https://]`
+
+
+## **Kütüphaneler**
+
+Kütüphaneler, kütüphane kodundan sonra süslü parantezler arasına yazılan bir lavinia methodudur. Evet, bir method'dur. Yani tek başına çalışamaz. lavinia modülü içinden çağırılabilir.
+
+Örnek;
+
+```
+lavinia kütüphane {jeafriday internet (al) [https://]}
+```
+
+**Bu method, normalde işlenmeyen komutları işleyebilir bir hale getirmek ve kolay bir yazıl klavuzuna geçebilmek adına yapıldı. Yani her komut için bir modül kullanmak yerine, artık kütüphaneler ile derli toplu bir yazım mekaniği kullanılıyor.**
+
+▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼
+
+### **jeafriday**
+JeaFriday kütüphanesi(modül), çeşitli araçlar içerir.
+
+### **internet**
+* Requests işlemlerini barındırır.
+> `al`
+
+Örnek;
+
+`{jeafriday internet (al) [https://]}`
+
+
+----------
 
 
 
